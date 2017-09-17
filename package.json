@@ -1,0 +1,32 @@
+{
+  "name": "frontend-base",
+  "version": "0.1.0",
+  "description": "frontend base",
+  "main": "src/index.js",
+  "author": "ari7",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  },
+  "scripts": {
+    "format": "prettier --write --no-semi --single-quote src/{**/*.js,*.js}",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "found": "^0.3.4",
+    "lodash": "^4.17.4",
+    "normalize.css": "^7.0.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
